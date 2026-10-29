@@ -677,5 +677,3 @@ at your option.
    make clippy
    make test
    ```
-#   G F l o w N e t - P r o v e r - A r c h i t e c t u r e  
- 
