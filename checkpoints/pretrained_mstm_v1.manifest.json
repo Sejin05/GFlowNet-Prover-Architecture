@@ -1,0 +1,9 @@
+{
+  "architecture": "StateGraphRgatEncoder",
+  "blake3_hash": "e07c7281419298c6116255530e07143c17a03c7575d25e7b44199cf2e4bb9274",
+  "epochs": 12,
+  "hidden_dim": 512,
+  "num_heads": 8,
+  "num_layers": 6,
+  "phase": "MSTM_PRETRAIN"
+}

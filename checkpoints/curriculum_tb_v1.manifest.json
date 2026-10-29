@@ -1,0 +1,7 @@
+{
+  "architecture": "GFlowNetPolicyHead",
+  "blake3_hash": "0c0d56b504d925d27113fe7045a9f5e5a3d4b3b9f533e3c0c0331b480137b067",
+  "huber_delta": 10.0,
+  "lambda_boundary": 5.0,
+  "phase": "CURRICULUM_TB"
+}

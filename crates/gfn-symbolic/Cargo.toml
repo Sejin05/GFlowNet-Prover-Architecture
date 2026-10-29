@@ -1,0 +1,25 @@
+[package]
+name = "gfn-symbolic"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+gfn-common = { workspace = true }
+gfn-evm = { workspace = true }
+gfn-invariants = { workspace = true }
+alloy-primitives = { workspace = true }
+alloy-sol-types = { workspace = true }
+dashmap = { workspace = true }
+heed = { workspace = true }
+rkyv = { workspace = true }
+xxhash-rust = { workspace = true }
+rayon = { workspace = true }
+parking_lot = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }

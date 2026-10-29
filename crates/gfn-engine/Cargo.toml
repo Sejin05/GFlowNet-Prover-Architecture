@@ -1,0 +1,27 @@
+[package]
+name = "gfn-engine"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+gfn-common = { workspace = true }
+gfn-extractor = { workspace = true }
+gfn-invariants = { workspace = true }
+gfn-evm = { workspace = true }
+gfn-symbolic = { workspace = true }
+alloy-primitives = { workspace = true }
+tch = { workspace = true }
+safetensors = { workspace = true }
+dashmap = { workspace = true }
+parking_lot = { workspace = true }
+rand = { workspace = true }
+rand_chacha = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+rayon = { workspace = true }
+metrics = { workspace = true }

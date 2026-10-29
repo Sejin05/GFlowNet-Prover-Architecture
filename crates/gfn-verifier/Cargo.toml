@@ -1,0 +1,23 @@
+[package]
+name = "gfn-verifier"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+gfn-common = { workspace = true }
+gfn-extractor = { workspace = true }
+gfn-invariants = { workspace = true }
+gfn-evm = { workspace = true }
+gfn-symbolic = { workspace = true }
+alloy-primitives = { workspace = true }
+solar-parse = { workspace = true }
+solar-ast = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
